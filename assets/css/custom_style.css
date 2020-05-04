@@ -1,0 +1,72 @@
+.logo-title {
+	text-transform: uppercase;
+	text-align: center;
+	color: #FFFFFF;
+}
+.loader {
+    position:fixed; 
+    z-index:9999; 
+    pointer-events:none;
+    top: 0; 
+    background-color: #547390;
+    padding: 10px 10px 10px 10px; 
+    border-radius: 15px;
+}
+.prospectus_footer{
+	border-bottom-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+}
+.semester_totalUnits{
+    border-left-style: hidden !important;
+    border-right-style: hidden !important;
+    text-align:center !important;
+}
+.text-header{
+    margin-top: 5px;
+}
+.letter-only,
+.uppercase {
+    text-transform: uppercase;
+}
+
+.ucwords {
+    text-transform: capitalize;
+}
+
+.facultyLoad-details{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    position: absolute;
+    top: -3px;
+    left: 0;
+    margin-left: 130px;
+}
+
+.schedule-details{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    position: absolute;
+    top: 1px;
+    left: 0;
+    margin-left: 130px;
+}
+
+@media (min-width: 992px){
+    .modal-xmd {
+        width: 800px;
+    }
+}
+
+#course_view #course_abbr_chosen{
+    margin-left: 54px !important;
+}
+#faculty_id_chosen {
+    margin-left: 23px !important;
+}
+
+.mgt-10{
+    margin-top: 10px;
+}
